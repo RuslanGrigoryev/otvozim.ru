@@ -187,6 +187,8 @@ table {
   padding-top: 20px; }
 .main-menu__list {
   float: left; }
+.main-menu__list--add {
+  background: url(../../images/markup/bg-btn-active.png) repeat-x; }
 .main-menu__list__link {
   text-transform: uppercase;
   font-weight: 600;
@@ -196,6 +198,6 @@ table {
   padding: 10px 30px; }
 .main-menu__list__link--active {
   color: #fff;
-  background: url(../../images/markup/bg-btn-active.png) repeat-x; }
+  background: url(../../images/markup/ico-plus.png) 10px 10px no-repeat; }
 .main-menu__list__link--active:hover {
   color: #fff; }

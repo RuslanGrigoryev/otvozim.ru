@@ -202,6 +202,9 @@ table {
 	padding-top: 20px;
 	&__list {
 		float: left;
+		&--add {
+			background: url(../../images/markup/bg-btn-active.png) repeat-x;
+		}
 		&__link {
 			text-transform: uppercase;
 			font-weight: 600;
@@ -211,7 +214,7 @@ table {
 			padding: 10px 30px;
 			&--active {
 				color: #fff;
-				background: url(../../images/markup/bg-btn-active.png) repeat-x;
+				background: url(../../images/markup/ico-plus.png) 10px 10px no-repeat;
 				&:hover {
 					color: #fff;
 				}
